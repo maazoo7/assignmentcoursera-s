@@ -1,0 +1,116 @@
+body{
+
+	background: black;
+	margin: 0;
+	padding: 0;
+
+}
+
+.layout{
+	width: 80%;
+	border: 0px dotted red;
+	background: white;
+	margin: 0 auto;
+	padding: 0;
+	background: url(img/t.jpg);
+
+}
+
+.header{
+	background: url(img/r.jpg);
+	height: 100px;
+	font-size: 50px;
+	color: transparent;
+	-webkit-background-clip: text; 
+}
+
+#mark{
+	font-size: 30px;
+}
+
+#v_bar{
+	background: lightgreen;
+	-webkit-background-clip: text; 
+
+}
+#v_bar ul{
+	list-style-image: url(logo/log.png);
+}
+#v_bar li{
+	display: inline-block;
+	
+
+}
+#v_bar li a{
+	display: block; 
+	text-decoration: none;
+	padding: 5px 10px;
+
+}
+#v_bar li a:hover{
+	background: black;
+	color: white;
+}
+
+#content{
+	box-sizing: border-box;
+	padding: 20px;
+	width: 80%;
+	float: left;
+
+}
+
+#content h1{
+	background: black;
+	color: white;
+	-webkit-background-clip: text; 
+
+}
+#content p{
+	background-image: url(img/r.jpg);
+	background-size: cover;
+	-webkit-background-clip: text; 
+
+}
+
+#h_bar{
+	width: 20%;
+	float: right;
+	padding: 10px;
+	box-sizing: border-box;
+	background-color: lightgreen;
+	-webkit-background-clip: text; 
+
+}
+
+#h_bar li{
+	display: block;
+
+}
+#h_bar li a{
+	display: block;
+	text-decoration: none;
+	padding: 10px;
+}
+
+#h_bar li a:hover{
+	background: black;
+	color: white;
+}
+
+#footer{
+	clear: both;
+	height: 100px;
+	background: lightgreen;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 25px;
+	-webkit-background-clip: text; 
+
+
+}
+
+#footer p{
+	margin-top: 40px;
+}
